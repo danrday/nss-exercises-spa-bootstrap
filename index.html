@@ -13,18 +13,31 @@
   <div class="container">
 
   <div class="row">
-  <div class="col-sm-4"><input type="textarea" id=""></input></div>
-  <div class="col-sm-4"><select name="select">
+  <div class="col-sm-4">Full Name: <input type="textarea" id="userName"></input>
+  </div>
+  
+  <div class="col-sm-4" id="userInfo">User Information Area</div>
+  </div>
+  
+  <div class="row">
+  <div class="col-sm-4">
+  Email: <input type="textarea" id="userEmail"></input></div>
+  </div>
+  
+  <div class="row">
+  <div class="col-sm-4">
+  Dollar Amount: $<input type="textarea" id="dollarAmount"></input></div>
+    <div class="col-sm-4"><select name="select" id="selectHowOften">
   <option value="Per Lap" selected>Per Lap</option> 
   <option value="Single Amount">Single Amount</option>
   </select>
   </div>
-  <div class="col-sm-4">User Information Area</div>
-  </div>
+    </div>
+
   <div class="row">
-  <div class="col-sm-4"><input type="button" value="Submit"></div>
-  <div class="col-sm-4"><input type="button" value="Cancel"></div>
-
+<div class="col-sm-4"><input type="button" id=
+  "submitButton" value="Submit"></div>
+  <div class="col-sm-4"><input type="button" id="cancelButton" value="Cancel"></div>
   </div>
 
 </div>
@@ -34,7 +47,12 @@
 
 
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+ 
+
   <script src="javascript.js"></script>
+
+
+  <script src="compileUserData.js"></script>
+
 </body>
 </html>
